@@ -11,7 +11,7 @@ public class Rectangle extends Polygon {
 	@Override
 	public void paint(Graphics g) {
             Point centre = this.centrePoint;
-            g.drawRect(centre.x -50, centre.y -10, 40, 20);
+            g.drawRect(centre.x -60, centre.y -10, 40, 20);
     }
 
 }
