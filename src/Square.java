@@ -3,10 +3,10 @@ import java.awt.Point;
 
 
 public class Square extends Polygon {
-	Point centrePoint;
+//	Point centrePoint;
 	
 	public Square (Point centre){
-		this.centrePoint = centre;
+		super(centre);
 	}
 	
 	@Override

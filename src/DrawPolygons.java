@@ -20,14 +20,6 @@ public class DrawPolygons extends Component{
         }
             
      }
-    
-
-//    @Override
-//    public void paint(Graphics g) {
-//        for (Polygon current : polygonNames) {
-//        	current.paint();
-//        }
-    //paint
 
     
     public static void main(String[] args) {

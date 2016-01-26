@@ -3,10 +3,10 @@ import java.awt.Point;
 
 
 public class Triangle extends Polygon {
-	Point centrePoint;
+//	Point centrePoint;
 	
 	public Triangle (Point centre){
-		this.centrePoint = centre;
+		super(centre);
 	}
 	
 	@Override

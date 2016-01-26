@@ -2,10 +2,10 @@ import java.awt.*;
 
 
 public class Rectangle extends Polygon {
-	Point centrePoint;
+//	Point centrePoint;
 	
 	public Rectangle (Point centre){
-		this.centrePoint = centre;
+		super(centre);
 	}
 	
 	@Override
